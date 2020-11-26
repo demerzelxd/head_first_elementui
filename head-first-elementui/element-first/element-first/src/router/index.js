@@ -8,6 +8,11 @@ import Container from "../components/Container";
 import ContainerExam from "../components/ContainerExam";
 import Radio from "../components/Radio";
 import Checkbox from "../components/Checkbox";
+import Input from "../components/Input";
+import Select from "../components/Select";
+import MySwitch from "../components/MySwitch";
+import DatePicker from "../components/DatePicker";
+import Upload from "../components/Upload";
 
 Vue.use(Router)
 
@@ -21,5 +26,10 @@ export default new Router({
         {path: '/containerExam', component: ContainerExam},
         {path: '/radio', component: Radio},
         {path: '/checkbox', component: Checkbox},
+        {path: '/input', component: Input},
+        {path: '/select', component: Select},
+        {path: '/mySwitch', component: MySwitch},
+        {path: '/datePicker', component: DatePicker},
+        {path: '/upload', component: Upload},
     ]
 })
