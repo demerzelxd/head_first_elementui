@@ -13,6 +13,7 @@ import Select from "../components/Select";
 import MySwitch from "../components/MySwitch";
 import DatePicker from "../components/DatePicker";
 import Upload from "../components/Upload";
+import Form from "../components/Form";
 
 Vue.use(Router)
 
@@ -31,5 +32,6 @@ export default new Router({
         {path: '/mySwitch', component: MySwitch},
         {path: '/datePicker', component: DatePicker},
         {path: '/upload', component: Upload},
+        {path: '/form', component: Form},
     ]
 })
