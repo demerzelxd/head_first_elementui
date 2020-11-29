@@ -15,6 +15,7 @@
         <el-link href="#/datePicker" :underline="false">DatePicker 日期选择器</el-link>
         <el-link href="#/upload" :underline="false">upload上传</el-link>
         <el-link href="#/form" :underline="false">form表单</el-link>
+        <el-link href="#/table" :underline="false">table表格</el-link>
         <router-view/>
     </div>
 </template>
