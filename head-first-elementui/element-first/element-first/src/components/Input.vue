@@ -72,7 +72,8 @@ export default {
         },
         createFilter(queryString) {
             return (restaurant) => {
-                return (restaurant.value.toLowerCase().indexOf(queryString.toLowerCase()) === 0);
+                // 这里只能选第一位相符合的，应该要求模糊搜索 !== -1
+                return (restaurant.value.toLowerCase().indexOf(queryString.toLowerCase()) !== -1);
             };
         },
         loadAll() {
